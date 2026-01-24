@@ -4,7 +4,7 @@ import Sidebar from "../components/Dashboard/Sidebar";
 import Booking from "../components/Dashboard/BookAppoiment";
 import MyBooking from "../components/Dashboard/MyBookings";
 import History from "../components/Dashboard/History";
-import { useStore } from "../Store/Strore";
+import { useStore } from "../Store/Store";
 
 
 

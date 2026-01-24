@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import "./index.css";
-import { StoreProvider } from "./Store/Strore.jsx";
+import { StoreProvider } from "./Store/Store.jsx";
 import 'remixicon/fonts/remixicon.css';
 
 

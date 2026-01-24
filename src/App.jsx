@@ -9,7 +9,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ChatCircle from './components/HairCraftXAI/ChatCircle';
 import { Toaster } from 'sonner';
 import Dashboard from './views/Dashboard';
-import AdminDashboard from './components/Dashboard/ADashboard/AdminDashboard';
+import Admin from './components/Dashboard/ADashboard/Admin';
 
 const App = () => {
   return (
@@ -21,7 +21,7 @@ const App = () => {
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/dashboard" element={<Dashboard />} />
-        <Route path="/admindashboard" element={<AdminDashboard />} />
+        <Route path="/Admin" element={<Admin />} />
       </Routes>
 
       <ChatCircle />

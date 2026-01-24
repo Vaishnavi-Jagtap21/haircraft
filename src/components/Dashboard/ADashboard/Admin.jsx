@@ -5,8 +5,7 @@ import Services from "./Pages/Services";
 import Appointments from "./Pages/Appointments";
 import History from "./Pages/History";
 import Users from "./Pages/Users";
-
-import { useStore } from "../../../Store/Strore";
+import { useStore } from "../../../Store/Store";
 import Navbar from "../../Navbar";
 
 const AdminDashboard = () => {

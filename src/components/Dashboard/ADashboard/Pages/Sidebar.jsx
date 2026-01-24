@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
-import { useStore } from "../../../../Store/Strore";
+import { useStore } from "../../../../Store/Store";
 
 const tabs = [
   { id: 1, label: "Overview" },
