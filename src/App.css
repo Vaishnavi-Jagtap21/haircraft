@@ -1,13 +1,16 @@
 @font-face {
-    font-family:Stylish;
-    src: url("./Fonts/Giomori.otf");
+  font-family: "Stylish";
+  src: url("./Fonts/Giomori.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
 }
 
-
-.stylish-font{
-    font-family: Stylish;
-}
-.hide-scrolbar::-webkit-scrollbar{
- display: none;
+/* Utility class */
+.stylish-font {
+  font-family: "Stylish", serif;
 }
 
+/* Hide scrollbar */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}

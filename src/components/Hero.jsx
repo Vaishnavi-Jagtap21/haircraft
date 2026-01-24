@@ -6,6 +6,7 @@ import AIHairstyleModal from "./AIHairstyleModal"; // adjust path if needed
 import { useNavigate } from "react-router-dom";
 import VideoOpener from "./VideoOpener";
 
+
 const Hero = () => {
   const heroRef = useRef(null);
   const [showAI, setShowAI] = useState(false);
@@ -79,7 +80,7 @@ const Hero = () => {
         {/* LEFT CONTENT */}
         <div className="space-y-8 relative z-10 hero-left">
 
-          <h1 className="text-5xl leading-tight font-serif text-gray-900 stylish-font">
+          <h1 className="text-5xl leading-tight font-serif text-gray-900 stylish-font ">
             CARE FOR YOUR SKIN,<br />
             CARE FOR YOUR BEAUTY
           </h1>

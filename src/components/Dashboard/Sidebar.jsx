@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
-import { useStore } from "../../Store/Store";
+import { useStore } from "../../Store/Strore";
+
 
 const tabs = [
   { id: 1, label: "Book Appointment" },
